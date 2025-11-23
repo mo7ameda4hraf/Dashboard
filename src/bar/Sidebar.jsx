@@ -14,7 +14,7 @@ import PieChartOutlinedIcon from "@mui/icons-material/PieChartOutlined";
 import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
 import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
-
+import myImage from "../Photo/img.png";
 export default function Sidebar({ show, setShow }) {
   const theme = useTheme();
   //Handle Functions
@@ -128,8 +128,8 @@ export default function Sidebar({ show, setShow }) {
         }}
       >
         <img
-          src="photo/IMG_٢٠٢٥٠٧٢٣_٢٣٠٨٠٧.jpg"
           alt=""
+          src={myImage}
           style={{ width: "70px", borderRadius: "50%" }}
         />
 
